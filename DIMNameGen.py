@@ -143,7 +143,7 @@ def main():
     green = (0, 255, 0)
 
     if args.name:
-        name = input("Type name: ").upper.lower
+        name = input("Type name: ")
 
     # Check that only supported characters are in name string
     for elem in name:
@@ -151,7 +151,7 @@ def main():
             letters[elem]
         except:
             print("Could not find letter " + repr(elem) + " in character sheet.")
-            print("Available characters: \"A-Z -:.() 0-9\"")
+            print("Available characters: \"A-Z a-z -:.() 0-9\"")
             exit(1)
     
     # Check if official Bandai sprite exists
