@@ -17,4 +17,4 @@ Usage: DIMNameGen.py [-h] [-n NAME]
 1. Click the green Code button  towards the top followed by Download ZIP. Extract the files to any folder.
 2. You will need an install of python3. Either from https://www.python.org/ or from the Windows Store.
 3. Once python is installed you will need to install the Pillow dependency by opening terminal/command prompt and typing `pip install Pillow`
-4. Once Pillow is installed you can run the script from terminal/command prompt with `python DIMNameGen.py` or use the included BAT file to make use of the TXT file drag and drop.
+4. Once Pillow is installed you can run the script from terminal/command prompt with `python3 DIMNameGen.py` or use the included BAT file to make use of the TXT file drag and drop.
