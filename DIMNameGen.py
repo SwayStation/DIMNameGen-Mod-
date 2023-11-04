@@ -143,7 +143,7 @@ def main():
     green = (0, 255, 0)
 
     if args.name:
-        name = input("Type name: ")
+        name = input("Type name: ").upper.lower
 
     # Check that only supported characters are in name string
     for elem in name:
