@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-# Author: AnalogMan
-# Modified Date: 2023-03-21
+# Author: AnalogMan, SwayStation
+# Modified Date: 2023-11-03
 # Purpose: Generates Bandai Vital Bracelet Name Sprites for DIM modifications
 # Usage: DIMNameGen [-h] [-n name]
 # Requirements: Pillow (pip3 install Pillow)
@@ -62,22 +62,22 @@ def main():
 
     # Dictionary map letters to alphabet sprite sheet
     letters = {}
-    letters["A"] = charsheet.crop((0, 0, 9, 15))
-    letters["B"] = charsheet.crop((10, 0, 17, 15))
-    letters["C"] = charsheet.crop((18, 0, 26, 15))
-    letters["D"] = charsheet.crop((27, 0, 35, 15))
-    letters["E"] = charsheet.crop((36, 0, 41, 15))
-    letters["F"] = charsheet.crop((42, 0, 47, 15))
-    letters["G"] = charsheet.crop((48, 0, 58, 15))
-    letters["H"] = charsheet.crop((59, 0, 67, 15))
-    letters["I"] = charsheet.crop((68, 0, 70, 15))
-    letters["J"] = charsheet.crop((71, 0, 77, 15))
-    letters["K"] = charsheet.crop((78, 0, 86, 15))
-    letters["L"] = charsheet.crop((87, 0, 92, 15))
-    letters["M"] = charsheet.crop((93, 0, 105, 15))
+    letters["A"] = charsheet.crop((0, 0, 8, 15))
+    letters["B"] = charsheet.crop((10, 0, 16, 15))
+    letters["C"] = charsheet.crop((18, 0, 24, 15))
+    letters["D"] = charsheet.crop((26, 0, 32, 15))
+    letters["E"] = charsheet.crop((34, 0, 39, 15))
+    letters["F"] = charsheet.crop((41, 0, 46, 15))
+    letters["G"] = charsheet.crop((48, 0, 54, 15))
+    letters["H"] = charsheet.crop((56, 0, 63, 15))
+    letters["I"] = charsheet.crop((65, 0, 67, 15))
+    letters["J"] = charsheet.crop((69, 0, 75, 15))
+    letters["K"] = charsheet.crop((77, 0, 83, 15))
+    letters["L"] = charsheet.crop((85, 0, 90, 15))
+    letters["M"] = charsheet.crop((92, 0, 102, 15))
 
-    letters["N"] = charsheet.crop((106, 0, 116, 15))
-    letters["O"] = charsheet.crop((117, 0, 127, 15))
+    letters["N"] = charsheet.crop((104, 0, 114, 15))
+    letters["O"] = charsheet.crop((116, 0, 127, 15))
     letters["P"] = charsheet.crop((128, 0, 135, 15))
     letters["Q"] = charsheet.crop((136, 0, 146, 15))
     letters["R"] = charsheet.crop((147, 0, 154, 15))
