@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# Author: AnalogMan, SwayStation
+# Author: AnalogMan
+# Fork : SwayStation
 # Modified Date: 2023-11-03
 # Purpose: Generates Bandai Vital Bracelet Name Sprites for DIM modifications
 # Usage: DIMNameGen [-h] [-n name]
@@ -63,67 +64,67 @@ def main():
     # Dictionary map letters to alphabet sprite sheet
     letters = {}
     letters["A"] = charsheet.crop((0, 0, 8, 15))
-    letters["B"] = charsheet.crop((10, 0, 16, 15))
-    letters["C"] = charsheet.crop((18, 0, 24, 15))
-    letters["D"] = charsheet.crop((26, 0, 32, 15))
-    letters["E"] = charsheet.crop((34, 0, 39, 15))
-    letters["F"] = charsheet.crop((41, 0, 46, 15))
-    letters["G"] = charsheet.crop((48, 0, 54, 15))
-    letters["H"] = charsheet.crop((56, 0, 63, 15))
-    letters["I"] = charsheet.crop((65, 0, 67, 15))
-    letters["J"] = charsheet.crop((69, 0, 75, 15))
-    letters["K"] = charsheet.crop((77, 0, 83, 15))
-    letters["L"] = charsheet.crop((85, 0, 90, 15))
-    letters["M"] = charsheet.crop((92, 0, 102, 15))
+    letters["B"] = charsheet.crop((9, 0, 16, 15))
+    letters["C"] = charsheet.crop((17, 0, 24, 15))
+    letters["D"] = charsheet.crop((25, 0, 32, 15))
+    letters["E"] = charsheet.crop((33, 0, 39, 15))
+    letters["F"] = charsheet.crop((40, 0, 46, 15))
+    letters["G"] = charsheet.crop((47, 0, 54, 15))
+    letters["H"] = charsheet.crop((55, 0, 63, 15))
+    letters["I"] = charsheet.crop((64, 0, 67, 15))
+    letters["J"] = charsheet.crop((68, 0, 75, 15))
+    letters["K"] = charsheet.crop((76, 0, 83, 15))
+    letters["L"] = charsheet.crop((84, 0, 90, 15))
+    letters["M"] = charsheet.crop((91, 0, 102, 15))
 
-    letters["N"] = charsheet.crop((104, 0, 114, 15))
-    letters["O"] = charsheet.crop((116, 0, 123, 15))
-    letters["P"] = charsheet.crop((125, 0, 131, 15))
-    letters["Q"] = charsheet.crop((133, 0, 140, 15))
-    letters["R"] = charsheet.crop((142, 0, 148, 15))
-    letters["S"] = charsheet.crop((150, 0, 157, 15))
-    letters["T"] = charsheet.crop((159, 0, 165, 15))
-    letters["U"] = charsheet.crop((167, 0, 174, 15))
-    letters["V"] = charsheet.crop((176, 0, 183, 15))
-    letters["W"] = charsheet.crop((185, 0, 195, 15))
-    letters["X"] = charsheet.crop((197, 0, 203, 15))
-    letters["Y"] = charsheet.crop((205, 0, 211, 15))
-    letters["Z"] = charsheet.crop((213, 0, 219, 15))
+    letters["N"] = charsheet.crop((103, 0, 114, 15))
+    letters["O"] = charsheet.crop((115, 0, 123, 15))
+    letters["P"] = charsheet.crop((124, 0, 131, 15))
+    letters["Q"] = charsheet.crop((132, 0, 140, 15))
+    letters["R"] = charsheet.crop((141, 0, 148, 15))
+    letters["S"] = charsheet.crop((149, 0, 157, 15))
+    letters["T"] = charsheet.crop((158, 0, 165, 15))
+    letters["U"] = charsheet.crop((166, 0, 174, 15))
+    letters["V"] = charsheet.crop((175, 0, 183, 15))
+    letters["W"] = charsheet.crop((184, 0, 195, 15))
+    letters["X"] = charsheet.crop((196, 0, 203, 15))
+    letters["Y"] = charsheet.crop((204, 0, 211, 15))
+    letters["Z"] = charsheet.crop((212, 0, 219, 15))
 
-    letters["a"] = charsheet.crop((221, 0, 226, 15))
-    letters["b"] = charsheet.crop((228, 0, 233, 15))
-    letters["c"] = charsheet.crop((235, 0, 240, 15))
-    letters["d"] = charsheet.crop((242, 0, 247, 15))
-    letters["e"] = charsheet.crop((249, 0, 254, 15))
-    letters["f"] = charsheet.crop((256, 0, 260, 15))
-    letters["g"] = charsheet.crop((262, 0, 268, 15))
-    letters["h"] = charsheet.crop((270, 0, 276, 15))
-    letters["i"] = charsheet.crop((278, 0, 279, 15))
-    letters["j"] = charsheet.crop((281, 0, 284, 15))
-    letters["k"] = charsheet.crop((286, 0, 291, 15))
-    letters["l"] = charsheet.crop((293, 0, 294, 15))
-    letters["m"] = charsheet.crop((296, 0, 305, 15))
+    letters["a"] = charsheet.crop((220, 0, 226, 15))
+    letters["b"] = charsheet.crop((227, 0, 233, 15))
+    letters["c"] = charsheet.crop((234, 0, 240, 15))
+    letters["d"] = charsheet.crop((241, 0, 247, 15))
+    letters["e"] = charsheet.crop((248, 0, 254, 15))
+    letters["f"] = charsheet.crop((255, 0, 260, 15))
+    letters["g"] = charsheet.crop((261, 0, 268, 15))
+    letters["h"] = charsheet.crop((269, 0, 276, 15))
+    letters["i"] = charsheet.crop((277, 0, 279, 15))
+    letters["j"] = charsheet.crop((280, 0, 284, 15))
+    letters["k"] = charsheet.crop((285, 0, 291, 15))
+    letters["l"] = charsheet.crop((292, 0, 294, 15))
+    letters["m"] = charsheet.crop((295, 0, 305, 15))
 
-    letters["n"] = charsheet.crop((307, 0, 313, 15))
-    letters["o"] = charsheet.crop((315, 0, 320, 15))
-    letters["p"] = charsheet.crop((322, 0, 327, 15))
-    letters["q"] = charsheet.crop((329, 0, 334, 15))
-    letters["r"] = charsheet.crop((336, 0, 341, 15))
-    letters["s"] = charsheet.crop((343, 0, 348, 15))
-    letters["t"] = charsheet.crop((350, 0, 354, 15))
-    letters["u"] = charsheet.crop((356, 0, 361, 15))
-    letters["v"] = charsheet.crop((363, 0, 368, 15))
-    letters["w"] = charsheet.crop((370, 0, 379, 15))
-    letters["x"] = charsheet.crop((381, 0, 387, 15))
-    letters["y"] = charsheet.crop((389, 0, 396, 15))
-    letters["z"] = charsheet.crop((398, 0, 403, 15))
+    letters["n"] = charsheet.crop((306, 0, 313, 15))
+    letters["o"] = charsheet.crop((314, 0, 320, 15))
+    letters["p"] = charsheet.crop((321, 0, 327, 15))
+    letters["q"] = charsheet.crop((328, 0, 334, 15))
+    letters["r"] = charsheet.crop((335, 0, 341, 15))
+    letters["s"] = charsheet.crop((342, 0, 348, 15))
+    letters["t"] = charsheet.crop((349, 0, 354, 15))
+    letters["u"] = charsheet.crop((355, 0, 361, 15))
+    letters["v"] = charsheet.crop((362, 0, 368, 15))
+    letters["w"] = charsheet.crop((369, 0, 379, 15))
+    letters["x"] = charsheet.crop((380, 0, 387, 15))
+    letters["y"] = charsheet.crop((388, 0, 396, 15))
+    letters["z"] = charsheet.crop((397, 0, 403, 15))
 
-    letters[" "] = charsheet.crop((405, 0, 407, 15))
-    letters["-"] = charsheet.crop((409, 0, 411, 15))
-    letters[":"] = charsheet.crop((413, 0, 414, 15))
-    letters["."] = charsheet.crop((416, 0, 417, 15))
-    letters["("] = charsheet.crop((419, 0, 422, 15))
-    letters[")"] = charsheet.crop((424, 0, 427, 15))
+    letters[" "] = charsheet.crop((404, 0, 407, 15))
+    letters["-"] = charsheet.crop((408, 0, 411, 15))
+    letters[":"] = charsheet.crop((412, 0, 414, 15))
+    letters["."] = charsheet.crop((415, 0, 417, 15))
+    letters["("] = charsheet.crop((418, 0, 422, 15))
+    letters[")"] = charsheet.crop((423, 0, 427, 15))
     
     letters["1"] = charsheet.crop((261, 0, 264, 15))
     letters["2"] = charsheet.crop((265, 0, 270, 15))
@@ -142,8 +143,7 @@ def main():
     white = (255, 255, 255)
     green = (0, 255, 0)
 
-    if args.name:
-        name = input("Type name: ")
+    name = input("Type name: ")
 
     # Check that only supported characters are in name string
     for elem in name:
@@ -151,7 +151,7 @@ def main():
             letters[elem]
         except:
             print("Could not find letter " + repr(elem) + " in character sheet.")
-            print("Available characters: \"A-Z a-z -:.() 0-9\"")
+            print("Available characters: \"A-Z -:.() 0-9\"")
             exit(1)
     
     # Check if official Bandai sprite exists
@@ -224,7 +224,7 @@ def main():
     lmargin = 0
     if canvas_w == 80:
         # Center sprite with a left margin of at least 2px
-        x = (80 - text_w) // 2
+        x = (80 - text_w) // 80
         lmargin = x - 2
     elif canvas_w == 160:
         # Add a 3px or 4px left margin based on wether the first letter is serif
@@ -232,14 +232,14 @@ def main():
         if text_w + x > 160:
             lmargin = 0
         else:
-            lmargin = x - 2
+            lmargin = 0
     else:
         # Add a 5px or 6px left margin based on wether the first letter is serif
         x = 5 if (name[0] in serif) else 6
         if text_w + x > 240:
             lmargin = 0
         else:
-            lmargin = x - 2
+            lmargin = 0
     if lmargin < 0:
         lmargin = 0
         
