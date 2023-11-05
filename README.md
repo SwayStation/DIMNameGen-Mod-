@@ -21,7 +21,6 @@ Usage: DIMNameGen.py [-h] [-n NAME]
 
 <br />
 <br />
-<br />
 
 ## **SwayStation's Fork (DigiScript Mod) Notes:**
 
