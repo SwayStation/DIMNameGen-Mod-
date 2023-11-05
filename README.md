@@ -22,7 +22,7 @@ Usage: DIMNameGen.py [-h] [-n NAME]
 <br />
 <br />
 
-## **SwayStation's Fork (DigiScript Mod) Notes:**
+## **SwayStation's Fork (DigiScript Mod) Notes v1.0.0:**
 
 Removed the uppercase only font with a new original font called DigiScript.
 DigiScript has both uppecase and lowercase inputs and DIM Name Gen will now output whatever you type with case-sensitivity.
