@@ -17,4 +17,20 @@ Usage: DIMNameGen.py [-h] [-n NAME]
 1. Click the green Code button  towards the top followed by Download ZIP. Extract the files to any folder.
 2. You will need an install of python3. Either from https://www.python.org/ or from the Windows Store.
 3. Once python is installed you will need to install the Pillow dependency by opening terminal/command prompt and typing `pip install Pillow`
-4. Once Pillow is installed you can run the script from terminal/command prompt with `python3 DIMNameGen.py` or use the included BAT file to make use of the TXT file drag and drop.
+4. Once Pillow is installed you can run the script from terminal/command prompt with `python DIMNameGen.py` (or `python3 DIMNameGen.py`) or use the included BAT file to make use of the TXT file drag and drop.
+
+
+
+
+SwayStation's Fork (DigiScript Mod) Notes:
+
+Removed the uppercase only font with a new original font called DigiScript.
+DigiScript has both uppecase and lowercase inputs and DIM Name Gen will now output whatever you type with case-sensitivity.
+
+If you input a name that is found in the official Bandai sprites database, it will output a name with "Capitilization" in effect in the DigiScript font.
+If you would prefer to have the name in all caps, first remove the Bandai sprite file from the "assets" folder and then input the desired name in all caps.
+
+
+Future updates:
+- Make GUI for macOS
+- Create batch file for macOS
