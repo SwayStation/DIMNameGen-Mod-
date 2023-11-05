@@ -18,10 +18,10 @@ Usage: DIMNameGen.py [-h] [-n NAME]
 2. You will need an install of python3. Either from https://www.python.org/ or from the Windows Store.
 3. Once python is installed you will need to install the Pillow dependency by opening terminal/command prompt and typing `pip install Pillow`
 4. Once Pillow is installed you can run the script from terminal/command prompt with `python DIMNameGen.py` (or `python3 DIMNameGen.py`) or use the included BAT file to make use of the TXT file drag and drop.
-_
-_
-_
 
+<br />
+<br />
+<br />
 SwayStation's Fork (DigiScript Mod) Notes:
 
 Removed the uppercase only font with a new original font called DigiScript.
