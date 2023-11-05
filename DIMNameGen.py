@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+# !/usr/bin/env python3
 # Author: AnalogMan
 # Fork : SwayStation
 # Modified Date: 2023-11-03
@@ -126,16 +126,16 @@ def main():
     letters["("] = charsheet.crop((418, 0, 422, 15))
     letters[")"] = charsheet.crop((423, 0, 427, 15))
     
-    letters["1"] = charsheet.crop((261, 0, 264, 15))
-    letters["2"] = charsheet.crop((265, 0, 270, 15))
-    letters["3"] = charsheet.crop((271, 0, 276, 15))
-    letters["4"] = charsheet.crop((277, 0, 283, 15))
-    letters["5"] = charsheet.crop((284, 0, 289, 15))
-    letters["6"] = charsheet.crop((290, 0, 296, 15))
-    letters["7"] = charsheet.crop((297, 0, 302, 15))
-    letters["8"] = charsheet.crop((303, 0, 309, 15))
-    letters["9"] = charsheet.crop((310, 0, 316, 15))
-    letters["0"] = charsheet.crop((317, 0, 323, 15))
+    letters["1"] = charsheet.crop((428, 0, 433, 15))
+    letters["2"] = charsheet.crop((434, 0, 441, 15))
+    letters["3"] = charsheet.crop((442, 0, 448, 15))
+    letters["4"] = charsheet.crop((449, 0, 455, 15))
+    letters["5"] = charsheet.crop((456, 0, 463, 15))
+    letters["6"] = charsheet.crop((464, 0, 471, 15))
+    letters["7"] = charsheet.crop((472, 0, 479, 15))
+    letters["8"] = charsheet.crop((480, 0, 486, 15))
+    letters["9"] = charsheet.crop((487, 0, 493, 15))
+    letters["0"] = charsheet.crop((494, 0, 501, 15))
     
     # List of serif letters
     serif = ["A", "M", "S", "V", "W"]
