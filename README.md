@@ -20,9 +20,7 @@ Usage: DIMNameGen.py [-h] [-n NAME]
 4. Once Pillow is installed you can run the script from terminal/command prompt with `python DIMNameGen.py` (or `python3 DIMNameGen.py`) or use the included BAT file to make use of the TXT file drag and drop.
 
 
-
-
-SwayStation's Fork (DigiScript Mod) Notes:
+#SwayStation's Fork (DigiScript Mod) Notes:
 
 Removed the uppercase only font with a new original font called DigiScript.
 DigiScript has both uppecase and lowercase inputs and DIM Name Gen will now output whatever you type with case-sensitivity.
