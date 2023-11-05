@@ -21,6 +21,7 @@ Usage: DIMNameGen.py [-h] [-n NAME]
 _
 _
 _
+
 SwayStation's Fork (DigiScript Mod) Notes:
 
 Removed the uppercase only font with a new original font called DigiScript.
